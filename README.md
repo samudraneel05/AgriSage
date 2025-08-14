@@ -127,13 +127,15 @@ The application serves as an intelligent guide for farmers, leveraging satellite
    ```
 
 3. **Configure API keys**
-   - Create a `lib/secrets.dart` file with the following structure:
+   - Create a `lib/secrets.dart` and file with the following structure:
    ```dart
    class Secrets {
      static const apiKey = 'YOUR_GEMINI_API_KEY';
      static const weatherApiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
    }
    ```
+
+   Also fill up secrets in 'lib/firebase_options'
 
 4. **Setup Firebase**
    - Follow the Firebase setup instructions for Flutter:
